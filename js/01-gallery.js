@@ -17,7 +17,6 @@ const imgMarkup = galleryItems
   </a>`;
   })
   .join('');
-// console.log(imgMarkup);
 
 divGallery.insertAdjacentHTML('beforeend', imgMarkup);
 
